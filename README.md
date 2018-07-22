@@ -4,12 +4,12 @@
 
 
 
-##在此之前
+## 在此之前
 
 - 这是个人学习笔记，内容的伪代码均为 free style 以方便理解，并不遵循特定语法规则。
 - 个人认为这些设计模式的优势通常与项目规模正相关，而内容中采用的例子可能过于简单容易出现「过度设计」的误解。
 - 结构和内容参考了 [**design-patterns-for-humans**](https://github.com/kamranahmedse/design-patterns-for-humans) 和 [**菜鸟教程的设计模式**](http://www.runoob.com/design-pattern/design-pattern-tutorial.html) 等有用的链接。
-- $$6 + 7 + 10 = 23$$
+- 6 + 7 + 10 = 23
 
 
 
@@ -278,7 +278,7 @@ class HawkAdapter implements Prey {
 
 
 
-###桥接
+### 桥接
 
 这个模式的思想在于**选择组成**而非继承：
 
@@ -515,7 +515,7 @@ pocketmoney->pay(300);  // use BankCard
 
 
 
-###命令
+### 命令
 
 通过封装动作对 `client` 和 `receiver` 解耦：
 
